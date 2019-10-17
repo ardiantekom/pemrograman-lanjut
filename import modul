@@ -1,0 +1,45 @@
+from dian import UntukEsMenjadiCair,  UntukCairMenjadiGas,  KapasitasKalor
+
+def main():
+
+	#fungsi untuk es menjadi cair
+	m = 7
+	L = 5
+	
+	kalor = UntukEsMenjadiCair(m, L)
+	
+	print("UNTUK ES MENJADI CAIR")
+	print("massa\t: ", m)
+	print("kalor laten lebur\t: ", L)
+	print("kalor\t= ", kalor)
+	print("========================")
+
+	
+	#fungsi untuk cair menjadi gas
+	m = 4
+	U = 8
+	
+	kalor = UntukCairMenjadiGas(m, U)
+	
+	print("UNTUK CAIR MENJADI UAP")
+	print("massa\t: ", m)
+	print("kalor laten uap\t: ", U)
+	print("kalor\t= ", kalor)
+	print("========================")
+	
+	
+	#fungsi untuk kapasitas kalor
+	m = 9
+	c = 3
+	
+	kalor = KapasitasKalor(m, U)
+	
+	print("KAPASITASNKALOR")
+	print("massa\t: ", m)
+	print("kalor jenis zat\t: ", c)
+	print("kalor\t= ", kalor)
+	
+	
+	
+if __name__ ==  "__main__":
+	main()
