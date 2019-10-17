@@ -1,0 +1,19 @@
+#fungsi menghitung kalor
+
+
+# Q = m * L
+#fungsi untuk es menjadi cair
+def UntukEsMenjadiCair(m, L):
+	return m * L
+	
+
+# Q = m * U
+#untuk cair menjadi gas
+def UntukCairMenjadiGas(m, U):
+	return m * U
+
+# C = m * c
+# C= kapasitas kalor, m= massa, c= kalor jenis zat
+#kapasitas kalor
+def KapasitasKalor(m, c):
+	return m * c
